@@ -1,0 +1,16 @@
+C:\Users\Terrence\Desktop\Repos\TC_Operators_Exercise\TC_Operators_Exercise\bin\Debug\net5.0\TC_Operators_Exercise.exe
+C:\Users\Terrence\Desktop\Repos\TC_Operators_Exercise\TC_Operators_Exercise\bin\Debug\net5.0\TC_Operators_Exercise.deps.json
+C:\Users\Terrence\Desktop\Repos\TC_Operators_Exercise\TC_Operators_Exercise\bin\Debug\net5.0\TC_Operators_Exercise.runtimeconfig.json
+C:\Users\Terrence\Desktop\Repos\TC_Operators_Exercise\TC_Operators_Exercise\bin\Debug\net5.0\TC_Operators_Exercise.runtimeconfig.dev.json
+C:\Users\Terrence\Desktop\Repos\TC_Operators_Exercise\TC_Operators_Exercise\bin\Debug\net5.0\TC_Operators_Exercise.dll
+C:\Users\Terrence\Desktop\Repos\TC_Operators_Exercise\TC_Operators_Exercise\bin\Debug\net5.0\TC_Operators_Exercise.pdb
+C:\Users\Terrence\Desktop\Repos\TC_Operators_Exercise\TC_Operators_Exercise\obj\Debug\net5.0\TC_Operators_Exercise.csproj.AssemblyReference.cache
+C:\Users\Terrence\Desktop\Repos\TC_Operators_Exercise\TC_Operators_Exercise\obj\Debug\net5.0\TC_Operators_Exercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Terrence\Desktop\Repos\TC_Operators_Exercise\TC_Operators_Exercise\obj\Debug\net5.0\TC_Operators_Exercise.AssemblyInfoInputs.cache
+C:\Users\Terrence\Desktop\Repos\TC_Operators_Exercise\TC_Operators_Exercise\obj\Debug\net5.0\TC_Operators_Exercise.AssemblyInfo.cs
+C:\Users\Terrence\Desktop\Repos\TC_Operators_Exercise\TC_Operators_Exercise\obj\Debug\net5.0\TC_Operators_Exercise.csproj.CoreCompileInputs.cache
+C:\Users\Terrence\Desktop\Repos\TC_Operators_Exercise\TC_Operators_Exercise\obj\Debug\net5.0\TC_Operators_Exercise.dll
+C:\Users\Terrence\Desktop\Repos\TC_Operators_Exercise\TC_Operators_Exercise\obj\Debug\net5.0\refint\TC_Operators_Exercise.dll
+C:\Users\Terrence\Desktop\Repos\TC_Operators_Exercise\TC_Operators_Exercise\obj\Debug\net5.0\TC_Operators_Exercise.pdb
+C:\Users\Terrence\Desktop\Repos\TC_Operators_Exercise\TC_Operators_Exercise\obj\Debug\net5.0\TC_Operators_Exercise.genruntimeconfig.cache
+C:\Users\Terrence\Desktop\Repos\TC_Operators_Exercise\TC_Operators_Exercise\obj\Debug\net5.0\ref\TC_Operators_Exercise.dll
