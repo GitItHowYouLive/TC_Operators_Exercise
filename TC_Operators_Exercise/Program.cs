@@ -6,6 +6,9 @@ namespace TC_Operators_Exercise
     {
         static void Main(string[] args)
         {
+
+            bool finished = false;
+
             static void OperatorExercise()
             {
                 int a = 17;
@@ -29,29 +32,36 @@ namespace TC_Operators_Exercise
                 switch (opp)
                 {
                     case "+":
-                        Console.WriteLine($"{a} + {b} is {a+b}");
+                        Console.WriteLine($"{a} + {b} is {a+b} \n\n");
                         break;
                     case "-":
-                        Console.WriteLine($"{a} - {b} is {a-b}");
+                        Console.WriteLine($"{a} - {b} is {a-b} \n\n");
                         break;
                     case "x":
                     case "*":
-                        Console.WriteLine($"{a} x {b} is {a*b}");
+                        Console.WriteLine($"{a} x {b} is {a*b} \n\n");
                         break;
                     case "/":
-                        Console.WriteLine($"{a}/{b} is {a/b} remainder {a%b}");
+                        Console.WriteLine($"{a}/{b} is {a/b} remainder {a%b} \n\n");
                         break;
                     case "%":
-                        Console.WriteLine($"{a} % {b} is {a % b}");
+                        Console.WriteLine($"{a} % {b} is {a % b} \n\n");
                         break;
                     default:
-                        Console.WriteLine("Oh no, something went wrong! Try again with a valid operator.");
+                        Console.WriteLine("Oh no, something went wrong! Try again with a valid operator. \n\n");
                         break;
                 }
+
+            }
+
+            static void Area()
+            {
+                Console.WriteLine("What is the radius of your circle?");
+                var radius = double.Parse(Console.ReadLine());
+                Console.WriteLine($"The area of a circle with radius of {radius} is {Math.PI * Math.Pow(radius, 2)} \n\n");
             }
 
             
-            bool finished = false;
 
             while (!finished)
             {
@@ -63,9 +73,11 @@ namespace TC_Operators_Exercise
                         OperatorExercise();
                         break;
                     case "Area":
+                        Area();
                         break;
                     case "exit":
                     case "no":
+                    case "none":
                         finished = true;
                         break;
                     default:
