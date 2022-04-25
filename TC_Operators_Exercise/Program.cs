@@ -56,9 +56,63 @@ namespace TC_Operators_Exercise
 
             static void Area()
             {
-                Console.WriteLine("What is the radius of your circle?");
-                var radius = double.Parse(Console.ReadLine());
-                Console.WriteLine($"The area of a circle with radius of {radius} is {Math.PI * Math.Pow(radius, 2)} \n\n");
+                Console.WriteLine("What shape would you like to calculate the area of?");
+                Console.WriteLine("You can choose a circle, rectangle, square, triangle, parallelogram, rhombus, or even an ellipse!");
+                string shape = Console.ReadLine();
+
+                switch (shape)
+                {
+                    case "circle":
+                        Console.WriteLine("What is the radius of your circle?");
+                        var radius = double.Parse(Console.ReadLine());
+                        Console.WriteLine($"The area of a circle with radius of {radius} is {Math.PI * Math.Pow(radius, 2)}. \n\n");
+                        break;
+                    case "triangle":
+                        Console.WriteLine("What is the length of the base of your triangle?");
+                        var bass = double.Parse(Console.ReadLine());
+                        Console.WriteLine("What is the triangle's height?");
+                        var height = double.Parse(Console.ReadLine());
+                        Console.WriteLine($"The area of a triangle with a base of {bass} and height of {height} is {0.5 * bass * height}. \n\n");
+                        break;
+                    case "square":
+                        Console.WriteLine("What is the length of the side of your square?");
+                        var side = double.Parse(Console.ReadLine());
+                        Console.WriteLine($"The area of a square with sides of {side} is {Math.Pow(side, 2)}. \n\n");
+                        break;
+                    case "rectangle":
+                        Console.WriteLine("What is the length of the long side of your rectangle?");
+                        var big = double.Parse(Console.ReadLine());
+                        Console.WriteLine("What is the length of the shorter side?");
+                        var little = double.Parse(Console.ReadLine());
+                        Console.WriteLine($"The area of a rectangle with a sides of {big} and {little} is {big * little}. \n\n");
+                        break;
+                    case "parallelogram":
+                        Console.WriteLine("What is the length of the base of your parallelogram?");
+                        var bottom = double.Parse(Console.ReadLine());
+                        Console.WriteLine("What is the parallelogram's height?");
+                        var vert = double.Parse(Console.ReadLine());
+                        Console.WriteLine($"The area of a parallelogram with a base of {bottom} and height of {vert} is {bottom * vert}. \n\n");
+                        break;
+                    case "rhombus":
+                        Console.WriteLine("What is the length of one diagonal of your rhombus?");
+                        var diag1 = double.Parse(Console.ReadLine());
+                        Console.WriteLine("What is the length of the other diagonal?");
+                        var diag2 = double.Parse(Console.ReadLine());
+                        Console.WriteLine($"The area of a rhombus with diagonals of {diag1} and {diag2} is {0.5 * diag1 * diag2}. \n\n");
+                        break;
+                    case "ellipse":
+                        Console.WriteLine("What is the length of the major(larger) axis?");
+                        var major = double.Parse(Console.ReadLine());
+                        Console.WriteLine("What is the length of the minor(smaller) axis?");
+                        var minor = double.Parse(Console.ReadLine());
+                        Console.WriteLine($"The area of an ellipse with a major axis of {major} and a minor axis of {minor} is {Math.PI * major * minor}. \n\n");
+                        break;
+                    default:
+                        Console.WriteLine("There were lots of options, and you only had one job. Please try again with a valid shape option");
+                        break;
+                }
+                
+                
             }
 
             
